@@ -1,11 +1,17 @@
 // Databricks notebook source
 // MAGIC %sh
+// MAGIC pip install pyspark
 // MAGIC pip install dbt-postgres
 
 // COMMAND ----------
 
 // MAGIC %sh
 // MAGIC pwd
+
+// COMMAND ----------
+
+// MAGIC %sh
+// MAGIC ls
 
 // COMMAND ----------
 
