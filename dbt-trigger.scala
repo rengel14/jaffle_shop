@@ -5,30 +5,24 @@
 
 // COMMAND ----------
 
-// MAGIC %sh
-// MAGIC pwd
-
-// COMMAND ----------
-
-// MAGIC %sh
-// MAGIC ls
-
-// COMMAND ----------
-
 // MAGIC %sh 
 // MAGIC cd dbt_root
-
-// COMMAND ----------
-
-// MAGIC %sh 
 // MAGIC dbt deps --profiles-dir /dbfs/FileStore/ryan/
 
 // COMMAND ----------
 
 // MAGIC %sh 
+// MAGIC cd dbt_root
 // MAGIC dbt seed --profiles-dir /dbfs/FileStore/ryan/
 
 // COMMAND ----------
 
 // MAGIC %sh 
+// MAGIC cd dbt_root
 // MAGIC dbt run --profiles-dir /dbfs/FileStore/ryan/
+
+// COMMAND ----------
+
+// MAGIC %sh 
+// MAGIC cd dbt_root
+// MAGIC dbt clean --profiles-dir /dbfs/FileStore/ryan/

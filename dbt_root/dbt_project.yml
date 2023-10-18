@@ -30,4 +30,8 @@ models:
       materialized: table
       staging:
         materialized: view
-        schema: testing_staging_schema
+        schema: staging
+
+snapshots:
+  jaffle_shop: 
+    target_schema: dbt_test
