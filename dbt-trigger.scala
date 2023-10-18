@@ -7,6 +7,18 @@
 
 // MAGIC %sh 
 // MAGIC cd dbt_root
+// MAGIC pwd
+
+// COMMAND ----------
+
+// MAGIC %sh 
+// MAGIC cd dbt_root
+// MAGIC ls
+
+// COMMAND ----------
+
+// MAGIC %sh 
+// MAGIC cd dbt_root
 // MAGIC dbt deps --profiles-dir /dbfs/FileStore/ryan/
 
 // COMMAND ----------
