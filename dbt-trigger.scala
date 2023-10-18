@@ -19,6 +19,18 @@
 
 // MAGIC %sh 
 // MAGIC cd dbt_root
+// MAGIC cat /dbfs/FileStore/ryan/profiles.yml
+
+// COMMAND ----------
+
+// MAGIC %sh 
+// MAGIC cd dbt_root
+// MAGIC cat dbt_project.yml
+
+// COMMAND ----------
+
+// MAGIC %sh 
+// MAGIC cd dbt_root
 // MAGIC dbt deps --profiles-dir /dbfs/FileStore/ryan/
 
 // COMMAND ----------
