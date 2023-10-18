@@ -16,7 +16,7 @@
 // COMMAND ----------
 
 // MAGIC %sh 
-// MAGIC cd dbt_demo_root
+// MAGIC cd dbt_root
 
 // COMMAND ----------
 
