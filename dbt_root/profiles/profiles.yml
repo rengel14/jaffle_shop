@@ -7,7 +7,7 @@ jaffle_shop:
       host: tpidai.postgres.database.azure.com
       port: 5432
       user: tpidaiadmin
-      pass: "{{ env_var('dbt_password') }}"
+      pass: "{{ env_var('DBT_PASS') }}"
       dbname: postgres
       schema: dbt_test
 
@@ -17,7 +17,7 @@ jaffle_shop:
       host: tpidai.postgres.database.azure.com
       port: 5432
       user: tpidaiadmin
-      pass: "{{ env_var('dbt_password') }}"
+      pass: "{{ env_var('DBT_PASS') }}"
       dbname: postgres
       schema: dbt_test
 
