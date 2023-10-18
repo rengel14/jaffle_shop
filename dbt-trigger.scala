@@ -1,6 +1,10 @@
 // Databricks notebook source
 // MAGIC %sh
 // MAGIC pip install pyspark
+
+// COMMAND ----------
+
+// MAGIC %sh 
 // MAGIC pip install dbt-postgres
 
 // COMMAND ----------
@@ -19,13 +23,7 @@
 
 // MAGIC %sh 
 // MAGIC cd dbt_root
-// MAGIC cat /dbfs/FileStore/ryan/profiles.yml
-
-// COMMAND ----------
-
-// MAGIC %sh 
-// MAGIC cd dbt_root
-// MAGIC cat dbt_project.yml
+// MAGIC dbt --version
 
 // COMMAND ----------
 
